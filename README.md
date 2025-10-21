@@ -30,17 +30,13 @@ The goal is to preserve and showcase the books that made early education fun for
 
 To run the project locally:
 
-### Clone this repository
-git clone https://github.com/josephmangara/school-books-archive.git
+Clone this repository - git clone https://github.com/josephmangara/school-books-archive.git
 
-### Move into the project directory
-cd school-books-archive
+Move into the project directory - cd school-books-archive
 
-### Install dependencies
-npm install
+Install dependencies - npm install
 
-### Start the development server
-npm run dev
+Start the development server - npm run dev
 
 ## License
 
