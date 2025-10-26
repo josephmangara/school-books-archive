@@ -7,6 +7,12 @@ export default function Header() {
         <h1 className="text-xl font-semibold tracking-wide">
           School Books Archive
         </h1>
+        <input 
+          type="text" 
+          name="search bar" 
+          placeholder="Search books" 
+          className="bg-white border border-amber-900 rounded-xl p-2 text-black"
+          id="main-search-bar" />
         <nav className="space-x-4">
           <Link to="/" className="hover:underline">
             Home
