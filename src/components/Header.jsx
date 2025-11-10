@@ -18,7 +18,7 @@ export default function Header() {
             Home
           </Link>
           <Link to="/primary" className="hover:underline">
-            Primary
+            Primary School
           </Link>
           <Link to="/highschool" className="hover:underline">
             High School

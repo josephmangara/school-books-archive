@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-100 text-gray-600 text-sm mt-10 border-t">
       <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center">
         <p>
-          © 2025 Joseph Mang'ara — All rights reserved.
+          © 2025 Joseph Mang'ara - All rights reserved.
         </p>
         <p>
           Licensed under{" "}
