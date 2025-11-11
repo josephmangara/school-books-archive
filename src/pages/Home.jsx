@@ -106,7 +106,18 @@ export default function Home() {
           appreciation of Kenya’s diverse social and cultural heritage.
         </p>
       </section>
-      
+      <section className="mt-16">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">A Generation of Readers</h2>
+        <p className="text-gray-600 leading-relaxed">
+          For many, primary school storybooks were the first windows into imagination and adventure. Titles
+          like <em>Moses and the Kidnappers</em>, <em>Goat Matata</em>, and <em>Kifimbo Cheza</em> brought
+          laughter, curiosity, and moral lessons into classrooms and homes.
+        </p>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          These stories built foundational literacy skills and nurtured a love for storytelling that
+          carried forward into adulthood — inspiring readers, writers, and educators alike.
+        </p>
+      </section>
     </div>
   );
 }
