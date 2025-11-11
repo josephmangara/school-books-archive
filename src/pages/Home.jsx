@@ -144,6 +144,22 @@ export default function Home() {
           nationhood, and human dignity.
         </p>
       </section>
+      <section className="mt-16">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6">Notable Authors</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-gray-700">
+          {[
+            { name: "Margaret Ogola", knownFor: "The River and the Source" },
+            { name: "Francis Imbuga", knownFor: "Betrayal in the City" },
+            { name: "Ken Walibora", knownFor: "Kidagaa Kimemwozea" },
+            { name: "Henrik Ibsen", knownFor: "A Doll’s House" },
+          ].map((author, index) => (
+            <div key={index} className="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-1">{author.name}</h3>
+              <p className="text-sm text-gray-600 italic">Known for: {author.knownFor}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
