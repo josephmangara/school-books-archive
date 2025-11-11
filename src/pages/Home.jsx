@@ -160,6 +160,20 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <section className="mt-16 text-center">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Memories that Shaped Us</h2>
+        <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Which storybook or setbook do you remember most vividly?  
+          Share your favorite moment, quote, or classroom memory — from lively debates to unforgettable
+          performances that brought literature to life.
+        </p>
+        <button
+          onClick={() => (window.location.href = "/memories")}
+          className="mt-6 bg-blue-600 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-blue-700 transition duration-300"
+        >
+          Share Your Story
+        </button>
+      </section>
     </div>
   );
 }
