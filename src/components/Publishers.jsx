@@ -9,16 +9,19 @@ export default function Publishers() {
       name: "Oxford University Press East Africa",
       description: "A branch of the global Oxford University Press, serving Kenya and East/Central Africa with primary, secondary and tertiary textbooks.",
       logo: oxford,
+      homepage: "https://oxford.co.ke/",
     },
     {
       name: "Longhorn Publishers PLC",
       description: "A Kenyan based publishing house established in 1965, now a leading provider of educational and creative books across East Africa.",
       logo: longhorn,
+      homepage: "https://www.longhornpublishers.com/",
     },
     {
       name: "Moran (E.A.) Publishers Limited",
       description: "Publisher of print and digital textbooks for primary and secondary schools in East Africa.",
       logo: moran,
+      homepage: "https://moranpublishers.com/",
     },
   ];
 
