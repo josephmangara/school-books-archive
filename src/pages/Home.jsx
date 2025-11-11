@@ -1,8 +1,12 @@
 
-import sun from "../assets/When-the-Sun-Goes-Down.jpg"
-import kidagaa from "../assets/kidagaa.jpg"
-import utengano from "../assets/utengano.jpeg"
-import caucasian from "../assets/caucasian-chalk-circle.webp"
+import sun from "../assets/When-the-Sun-Goes-Down.jpg";
+import kidagaa from "../assets/kidagaa.jpg";
+import utengano from "../assets/utengano.jpeg";
+import caucasian from "../assets/caucasian-chalk-circle.webp";
+import ghost from "../assets/The-ghost-of-Garba Tula.jpg";
+import moses from "../assets/moses-and-the-kidnappers_0.jpg";
+import matata from "../assets/Goat-matata.webp";
+import kifimboCheza from "../assets/KifimboCheza.jpg";
 
 export default function Home() {
 
@@ -14,9 +18,10 @@ export default function Home() {
         <div>
           <h2>Primary school storybooks</h2>
           <img src="https://i.pinimg.com/736x/e7/e6/67/e7e66764523423e79ba246cf77a5b69c.jpg" alt="Read with us, New friends, and Hallo children books" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src={ghost} alt="The ghost of Garba Tula" />
+          <img src={moses} alt="Moses and the kidnappers" />
+          <img src={matata} alt="Goat matata" />
+          <img src={kifimboCheza} alt="Kifimbo Cheza" />
         </div>
         <div>
           <h2>Highschool setbooks</h2>
