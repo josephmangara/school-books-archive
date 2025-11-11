@@ -6,10 +6,10 @@ export default function Magazines() {
     name: "Shujaaz",
     description:
       "A Kenyan youth platform launched in 2010 combining comic magazine, radio and digital media in Sheng to reach teens across the country.",
-    logoSrc: "https://via.placeholder.com/200x250?text=Shujaaz",
+    logoSrc: "https://i.pinimg.com/736x/22/c1/13/22c1132562ea514538d9bfc9f7e99767.jpg",
   },
   {
-    name: "Youth Village Kenya",
+    name: "The insyder",
     description:
       "Magazine and online platform covering education, entrepreneurship, employment and lifestyle for Kenyan youth.",
     logoSrc: "https://via.placeholder.com/200x250?text=Youth+Village+Kenya",
