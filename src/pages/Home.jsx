@@ -1,4 +1,6 @@
 
+import Publishers from "../components/Publishers"; 
+
 import sun from "../assets/When-the-Sun-Goes-Down.jpg";
 import kidagaa from "../assets/kidagaa.jpg";
 import utengano from "../assets/utengano.jpeg";
@@ -201,6 +203,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <Publishers />
+      
       <section className="mt-16 text-center">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Memories that Shaped Us</h2>
         <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
