@@ -41,7 +41,7 @@ export default function Home() {
               <img
                 src={book.src}
                 alt={book.alt}
-                className="object-cover w-full h-60 transform group-hover:scale-105 transition duration-500 ease-in-out"
+                className="object-cover w-full h-72 transform group-hover:scale-105 transition duration-500 ease-in-out"
               />
             </div>
           ))}
@@ -93,6 +93,20 @@ export default function Home() {
           </button>
         </div>
       </section>
+      <section className="mt-20">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">The Significance of Setbooks</h2>
+        <p className="text-gray-600 leading-relaxed">
+          High school setbooks in Kenya have long been more than exam requirements — they’ve been a mirror
+          of our society, shaping thought, language, and identity. From <em>The River and the Source</em> to
+          <em> Betrayal in the City</em>, each generation of learners encountered powerful stories that
+          explored justice, gender, and the meaning of freedom in a changing nation.
+        </p>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          Through these literary works, students developed critical thinking, empathy, and a deeper
+          appreciation of Kenya’s diverse social and cultural heritage.
+        </p>
+      </section>
+      
     </div>
   );
 }
