@@ -135,6 +135,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="mt-16">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Reflections of Society</h2>
+        <p className="text-gray-600 leading-relaxed">
+          Setbooks often mirrored the moral, political, and cultural issues of their times. They examined
+          topics like corruption, patriarchy, and power while celebrating values such as resilience,
+          justice, and courage. Through literature, students engaged with the deeper questions of identity,
+          nationhood, and human dignity.
+        </p>
+      </section>
     </div>
   );
 }
