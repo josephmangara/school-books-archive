@@ -7,6 +7,10 @@ import ghost from "../assets/The-ghost-of-Garba Tula.jpg";
 import moses from "../assets/moses-and-the-kidnappers_0.jpg";
 import matata from "../assets/Goat-matata.webp";
 import kifimboCheza from "../assets/KifimboCheza.jpg";
+import ken from "../assets/KenWalibora.jpg";
+import imbuga from "../assets/Imbuga.jpeg";
+import wallah from "../assets/WallahBinWallah.jpeg";
+
 
 export default function Home() {
   return (
@@ -70,6 +74,10 @@ export default function Home() {
             { src: kidagaa, alt: "Kidagaa kimemwozea" },
             { src: utengano, alt: "Utengano" },
             { src: caucasian, alt: "Caucasian chalk circle" },
+            {
+              src: "https://i.pinimg.com/736x/dd/85/f7/dd85f701f886b6719fbf4d7f644d1749.jpg",
+              alt: "Siku Njema",
+            },
           ].map((book, index) => (
             <div
               key={index}
@@ -151,22 +159,27 @@ export default function Home() {
             {
               name: "Margaret Ogola",
               knownFor: "The River and the Source",
-              img: "https://via.placeholder.com/200x250?text=Margaret+Ogola",
+              img: "https://i.pinimg.com/736x/8f/07/e1/8f07e1f4116c55ac7c8a0e7b50e26dcd.jpg",
             },
             {
               name: "Francis Imbuga",
               knownFor: "Betrayal in the City",
-              img: "https://via.placeholder.com/200x250?text=Francis+Imbuga",
+              img: imbuga,
             },
             {
               name: "Ken Walibora",
-              knownFor: "Kidagaa Kimemwozea",
-              img: "https://via.placeholder.com/200x250?text=Ken+Walibora",
+              knownFor: "Siku Njema",
+              img: ken,
             },
             {
-              name: "Henrik Ibsen",
-              knownFor: "A Doll’s House",
-              img: "https://via.placeholder.com/200x250?text=Henrik+Ibsen",
+              name: "Wallah Bin Wallah",
+              knownFor: "Kiswahili Mufti textbooks",
+              img: wallah,
+            },
+            {
+              name: "Ngugi wa Thiong'o",
+              knownFor: "River Between",
+              img: "https://i.pinimg.com/736x/eb/0b/93/eb0b93d9f9f190a8c10b13a992d95d93.jpg",
             },
           ].map((author, index) => (
             <div
