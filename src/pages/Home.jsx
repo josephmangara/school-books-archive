@@ -174,6 +174,15 @@ export default function Home() {
           Share Your Story
         </button>
       </section>
+      <section className="mt-20 border-t pt-10 text-center">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">About This Project</h2>
+        <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          This project is a digital archive dedicated to preserving the literary legacy that shaped Kenyan
+          learners under the 8-4-4 system.  
+          It stands as a tribute to the teachers, authors, and students who made reading an integral part
+          of our shared educational journey — a celebration of the stories that defined generations.
+        </p>
+      </section>
     </div>
   );
 }
