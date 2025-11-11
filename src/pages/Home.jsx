@@ -1,5 +1,8 @@
 
-
+import sun from "../assets/When-the-Sun-Goes-Down.jpg"
+import kidagaa from "../assets/kidagaa.jpg"
+import utengano from "../assets/utengano.jpeg"
+import caucasian from "../assets/caucasian-chalk-circle.webp"
 
 export default function Home() {
 
@@ -14,11 +17,14 @@ export default function Home() {
           <img src="" alt="" />
           <img src="" alt="" />
           <img src="" alt="" />
-          <img src="" alt="" />
         </div>
         <div>
           <h2>Highschool setbooks</h2>
           <img src="https://i.pinimg.com/736x/0e/aa/a3/0eaaa33ab615d2aa6cde5487ebdae309.jpg" alt="The river and the source" />
+          <img src={sun} alt="When the sun goes down" />
+          <img src={kidagaa} alt="Kidagaa kimemwozea" />
+          <img src={utengano} alt="Utengano" />
+          <img src={caucasian} alt="Caucasian-chalk-circle" />
         </div>
       </div>
     </>
