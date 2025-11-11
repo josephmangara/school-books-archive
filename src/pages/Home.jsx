@@ -118,6 +118,23 @@ export default function Home() {
           carried forward into adulthood — inspiring readers, writers, and educators alike.
         </p>
       </section>
+      <section className="mt-16">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6">The Evolution of Setbooks</h2>
+        <div className="space-y-4 text-gray-600">
+          <div>
+            <h3 className="font-semibold text-gray-700">1980s–1990s</h3>
+            <p>Classics like <em>Encounter from Africa</em> and <em>Betrayal in the City</em> introduced themes of political unrest and identity.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-gray-700">2000s</h3>
+            <p>Books such as <em>The River and the Source</em> and <em>An Enemy of the People</em> tackled gender, modernization, and social justice.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-gray-700">2010s–2020s</h3>
+            <p><em>Blossoms of the Savannah</em>, <em>A Doll’s House</em>, and <em>Fathers of Nations</em> reflected the global and contemporary issues of the 21st century.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
