@@ -144,18 +144,46 @@ export default function Home() {
           nationhood, and human dignity.
         </p>
       </section>
-      <section className="mt-16">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6">Notable Authors</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-gray-700">
+      <section className="max-w-6xl mx-auto mb-20">
+        <h2 className="text-2xl font-semibold text-blue-700 mb-8 text-center">Notable Authors</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
           {[
-            { name: "Margaret Ogola", knownFor: "The River and the Source" },
-            { name: "Francis Imbuga", knownFor: "Betrayal in the City" },
-            { name: "Ken Walibora", knownFor: "Kidagaa Kimemwozea" },
-            { name: "Henrik Ibsen", knownFor: "A Doll’s House" },
+            {
+              name: "Margaret Ogola",
+              knownFor: "The River and the Source",
+              img: "https://via.placeholder.com/200x250?text=Margaret+Ogola",
+            },
+            {
+              name: "Francis Imbuga",
+              knownFor: "Betrayal in the City",
+              img: "https://via.placeholder.com/200x250?text=Francis+Imbuga",
+            },
+            {
+              name: "Ken Walibora",
+              knownFor: "Kidagaa Kimemwozea",
+              img: "https://via.placeholder.com/200x250?text=Ken+Walibora",
+            },
+            {
+              name: "Henrik Ibsen",
+              knownFor: "A Doll’s House",
+              img: "https://via.placeholder.com/200x250?text=Henrik+Ibsen",
+            },
           ].map((author, index) => (
-            <div key={index} className="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <h3 className="font-semibold text-lg mb-1">{author.name}</h3>
-              <p className="text-sm text-gray-600 italic">Known for: {author.knownFor}</p>
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-md transition duration-300"
+            >
+              <img
+                src={author.img}
+                alt={author.name}
+                className="w-full h-56 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-800 text-lg">{author.name}</h3>
+                <p className="text-sm text-gray-600 italic mt-1">
+                  Known for: {author.knownFor}
+                </p>
+              </div>
             </div>
           ))}
         </div>
