@@ -15,10 +15,10 @@ export default function Magazines() {
     logoSrc: "https://via.placeholder.com/200x250?text=Youth+Village+Kenya",
   },
   {
-    name: "True Success Magazine",
+    name: "Supa Strikas",
     description:
-      "Print publication targeting students, teachers and parents; focuses on success stories and school achievements in Kenya.",
-    logoSrc: "https://via.placeholder.com/200x250?text=True+Success+Magazine",
+      "Sports comic",
+    logoSrc: "https://i.pinimg.com/736x/91/5a/43/915a43407073fbd1b5715a14ae1047b3.jpg",
   },
   {
     name: "Kwani? Magazine",
