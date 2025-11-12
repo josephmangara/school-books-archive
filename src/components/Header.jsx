@@ -1,17 +1,28 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { HiOutlineMenuAlt1 } from "react-icons/hi";
-import { HiOutlineX } from "react-icons/hi";
+import { useState, useEffect, useRef } from "react";
+import { HiOutlineMenuAlt1, HiOutlineX } from "react-icons/hi";
 
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const menuRef = useRef(null);
 
-  
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleLinkClick = () => setOpen(false);
+
   return (
-    <header className="bg-blue-600 text-white shadow-md">
+    <header className="relative bg-blue-100 text-black shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-semibold ">School Books Archive</h1>
+        <h1 className="md:text-xl font-semibold ">School Books Archive</h1>
         <input 
           type="text" 
           name="search bar" 
@@ -25,19 +36,25 @@ export default function Header() {
           <Link to="/about" className="hover:underline">About</Link>
         </nav>
 
-        <button className="md:hidden" onClick={() => setOpen(!open)}>
+        <button className="md:hidden p-2" onClick={() => setOpen(!open)}>
           {open ? <HiOutlineX /> : <HiOutlineMenuAlt1 />}
         </button>
       </div>
 
-      {open && (
-        <nav className="md:hidden bg-white border-t">
-          <Link to="/" className="block p-3 border-b">Home</Link>
-          <Link to="/primary" className="block p-3 border-b">Primary School</Link>
-          <Link to="/highschool" className="block p-3 border-b">High School </Link>
-          <Link to="/about" className="block p-3 border-b">About</Link>
+      {/* Mobile view/ responsiveness */}
+      <div
+        ref={menuRef}
+        className={`absolute top-full left-0 w-full bg-white shadow-lg text-center z-50 transform transition-all duration-300 ease-in-out origin-top ${
+          open ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"
+        }`}
+      >
+        <nav>
+          <Link to="/" onClick={handleLinkClick} className="block p-3 hover:bg-gray-200">Home</Link>
+          <Link to="/primary" onClick={handleLinkClick} className="block p-3 hover:bg-gray-200">Primary School</Link>
+          <Link to="/highschool" onClick={handleLinkClick} className="block p-3 hover:bg-gray-200">High School</Link>
+          <Link to="/about" onClick={handleLinkClick} className="block p-3 hover:bg-gray-200">About</Link>
         </nav>
-      )}
+      </div>
     </header>
   );
 }

@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="flex-grow max-w-6xl mx-auto px-4 py-6">
+      <main className="flex-grow max-w-6xl mx-auto px-4 py-6 z-1">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/primary" element={<PrimaryBooks />} />
