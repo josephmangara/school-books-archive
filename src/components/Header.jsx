@@ -27,7 +27,7 @@ export default function Header() {
           type="text" 
           name="search bar" 
           placeholder="Search books" 
-          className="bg-white border border-amber-900 rounded-xl p-2 text-black"
+          className="bg-white border border-amber-900 rounded-lg p-2 text-black"
           id="main-search-bar" />
         <nav className="hidden md:flex space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
