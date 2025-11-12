@@ -1,7 +1,7 @@
 
 
 
-export default function Sidebar() {
+export default function Navbar() {
 
   return (
       <>
