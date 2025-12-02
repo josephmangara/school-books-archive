@@ -8,7 +8,14 @@ export default function HighSchoolBooks() {
   useEffect (() => {
     fetch("/api/setbooks")
       .then(res => res.json())
-      .then(books => console.log(books))
+      .then(books => {
+        console.log(books);
+        setKcseSetBooks(books);
+      }
+    )
+    .catch(err => {
+      console.error("Error fetching set books:", err)
+    })
   }, [])
 
   return (
