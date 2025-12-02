@@ -1,7 +1,15 @@
-
+import { useState, useEffect } from "react";
 
 
 export default function HighSchoolBooks() {
+
+  const [ksceSetBooks, setKcseSetBooks] = useState();
+
+  useEffect (() => {
+    fetch("/api/setbooks")
+      .then(res => res.json())
+      .then(books => console.log(books))
+  }, [])
 
   return (
     <>
