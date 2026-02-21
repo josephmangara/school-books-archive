@@ -27,7 +27,7 @@ export default function Publishers() {
 
   return (
     <section className="max-w-6xl mx-auto mb-20">
-      <h2 className="text-2xl font-semibold text-blue-700 mb-8 text-center">Leading Kenyan Publishers</h2>
+      <h2 className="text-2xl font-semibold mb-8 text-center">Leading Kenyan Publishers</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {publishers.map((pub, index) => (
           <div
@@ -40,7 +40,7 @@ export default function Publishers() {
               className="w-full h-48 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
             />
             <div className="p-4">
-              <h3 className="font-semibold text-gray-800 text-lg mb-2">{pub.name}</h3>
+              <h3 className="font-semibold text-lg mb-2">{pub.name}</h3>
               {/* <p className="text-gray-600 text-sm">{pub.description}</p> */}
             </div>
           </div>

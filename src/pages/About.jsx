@@ -14,7 +14,7 @@ export default function About(){
   
   {/* --- Historical Context Section --- */}
   <section className="max-w-5xl mx-auto mb-20">
-    <h2 className="text-3xl font-bold text-blue-700 mb-4">The Significance of Setbooks</h2>
+    <h2 className="text-3xl font-bold  mb-4">The Significance of Setbooks</h2>
     <p className="text-gray-700 leading-relaxed">
       High school setbooks in Kenya have always been more than just exam material — they’ve been a
       reflection of society, inspiring empathy, critical thought, and awareness. From
@@ -29,7 +29,7 @@ export default function About(){
 
   {/* --- Educational Impact Section --- */}
   <section className="max-w-5xl mx-auto mb-20 bg-white shadow-sm rounded-2xl p-8">
-    <h2 className="text-2xl font-semibold text-blue-700 mb-4">A Generation of Readers</h2>
+    <h2 className="text-2xl font-semibold  mb-4">A Generation of Readers</h2>
     <p className="text-gray-700 leading-relaxed">
       Primary school storybooks like <em>Goat Matata</em> and <em>Moses and the Kidnappers</em> were
       more than classroom tools — they shaped childhood imagination and moral understanding. They
@@ -44,7 +44,7 @@ export default function About(){
 
   {/* --- Literary Evolution Timeline --- */}
   <section className="max-w-5xl mx-auto mb-20">
-    <h2 className="text-2xl font-semibold text-blue-700 mb-6">The Evolution of Setbooks</h2>
+    <h2 className="text-2xl font-semibold  mb-6">The Evolution of Setbooks</h2>
     <div className="bg-white rounded-2xl shadow-sm divide-y divide-gray-200">
       {[
         {
@@ -73,7 +73,7 @@ export default function About(){
 
   {/* --- Cultural Reflection Section --- */}
   <section className="max-w-5xl mx-auto mb-20 bg-white shadow-sm rounded-2xl p-8">
-    <h2 className="text-2xl font-semibold text-blue-700 mb-4">Reflections of Society</h2>
+    <h2 className="text-2xl font-semibold  mb-4">Reflections of Society</h2>
     <p className="text-gray-700 leading-relaxed">
       Setbooks and storybooks often mirrored Kenya’s evolving cultural and political landscape.
       Themes such as corruption, gender equality, and resistance against oppression were common —
@@ -87,7 +87,7 @@ export default function About(){
 
   {/* --- Author Highlights Section --- */}
   <section className="max-w-6xl mx-auto mb-20">
-    <h2 className="text-2xl font-semibold text-blue-700 mb-8 text-center">Notable Authors</h2>
+    <h2 className="text-2xl font-semibold  mb-8 text-center">Notable Authors</h2>
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
       {[
         {
@@ -133,7 +133,7 @@ export default function About(){
 
   {/* --- Memory & Nostalgia Section --- */}
   <section className="max-w-4xl mx-auto text-center mb-20">
-    <h2 className="text-2xl font-semibold text-blue-700 mb-4">Memories that Shaped Us</h2>
+    <h2 className="text-2xl font-semibold  mb-4">Memories that Shaped Us</h2>
     <p className="text-gray-700 leading-relaxed">
       Which storybook or setbook left the biggest mark on your memory?  
       Share your favorite classroom debate, unforgettable character, or quote that stuck with you.
@@ -148,7 +148,7 @@ export default function About(){
 
   {/* --- About This Project Section --- */}
   <section className="max-w-4xl mx-auto text-center border-t border-gray-200 pt-12">
-    <h2 className="text-2xl font-semibold text-blue-700 mb-4">About This Project</h2>
+    <h2 className="text-2xl font-semibold  mb-4">About This Project</h2>
     <p className="text-gray-700 leading-relaxed">
       This project is a digital archive celebrating the literary legacy that shaped students under
       the 8-4-4 system. It honors the authors, teachers, and readers who made storytelling an

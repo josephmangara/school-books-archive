@@ -60,7 +60,7 @@ export default function Magazines() {
 
   return (
     <section className="max-w-6xl mx-auto mb-20">
-      <h2 className="text-2xl font-semibold text-blue-700 mb-8 text-center">
+      <h2 className="text-2xl font-semibold mb-8 text-center">
         Popular High-School Magazines
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -78,7 +78,7 @@ export default function Magazines() {
               <h3 className="font-semibold text-gray-800 text-lg mb-2">
                 {mag.name}
               </h3>
-              <p className="text-gray-600 text-sm">{mag.description}</p>
+              <p className="text-sm">{mag.description}</p>
             </div>
           </div>
         ))}

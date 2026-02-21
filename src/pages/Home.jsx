@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <div className="px-6 py-10 max-w-6xl mx-auto">
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Book Repository</h1>
-        <p className="text-gray-600 leading-relaxed max-w-3xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4">Book Repository</h1>
+        <p className=" leading-relaxed max-w-3xl mx-auto">
           This project documents the primary school storybooks we read in the 2000s and 2010s.
           It also includes the high school setbooks, both English and Kiswahili, that have been
           examined in KCSE since the inception of the 8-4-4 system.
@@ -27,7 +27,7 @@ export default function Home() {
       </header>
 
       <section className="mb-16">
-        <h2 className="mb-6 text-2xl font-semibold text-gray-700">Primary School Storybooks</h2>
+        <h2 className="mb-6 text-2xl font-semibold">Primary School Storybooks</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {[
@@ -56,13 +56,13 @@ export default function Home() {
         <div className="flex justify-start mt-8">
           <button
             onClick={() => (window.location.href = "/primary")}
-            className="bg-blue-600 text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300"
+            className=" text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300"
           > View More Primary School Books </button>
         </div>
       </section>
 
       <section>
-        <h2 className="mb-6 text-2xl font-semibold text-gray-700">
+        <h2 className="mb-6 text-2xl font-semibold">
           High School Setbooks
         </h2>
 
@@ -97,57 +97,57 @@ export default function Home() {
         <div className="flex justify-start mt-8">
           <button
             onClick={() => (window.location.href = "/highschool")}
-            className="bg-blue-600 text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300"
+            className=" text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300"
           >
             View More High School Books
           </button>
         </div>
       </section>
       <section className="mt-20">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">The Significance of Setbooks</h2>
-        <p className="text-gray-600 leading-relaxed">
+        <h2 className="text-2xl font-semibold mb-4">The Significance of Setbooks</h2>
+        <p className=" leading-relaxed">
           High school setbooks in Kenya have long been more than exam requirements — they’ve been a mirror
           of our society, shaping thought, language, and identity. From <em>The River and the Source</em> to
           <em> Betrayal in the City</em>, each generation of learners encountered powerful stories that
           explored justice, gender, and the meaning of freedom in a changing nation.
         </p>
-        <p className="mt-3 text-gray-600 leading-relaxed">
+        <p className="mt-3  leading-relaxed">
           Through these literary works, students developed critical thinking, empathy, and a deeper
           appreciation of Kenya’s diverse social and cultural heritage.
         </p>
       </section>
       <section className="mt-16">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">A Generation of Readers</h2>
-        <p className="text-gray-600 leading-relaxed">
+        <h2 className="text-2xl font-semibold mb-4">A Generation of Readers</h2>
+        <p className=" leading-relaxed">
           For many, primary school storybooks were the first windows into imagination and adventure. Titles
           like <em>Moses and the Kidnappers</em>, <em>Goat Matata</em>, and <em>Kifimbo Cheza</em> brought
           laughter, curiosity, and moral lessons into classrooms and homes.
         </p>
-        <p className="mt-3 text-gray-600 leading-relaxed">
+        <p className="mt-3  leading-relaxed">
           These stories built foundational literacy skills and nurtured a love for storytelling that
           carried forward into adulthood — inspiring readers, writers, and educators alike.
         </p>
       </section>
       <section className="mt-16">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6">The Evolution of Setbooks</h2>
-        <div className="space-y-4 text-gray-600">
+        <h2 className="text-2xl font-semibold mb-6">The Evolution of Setbooks</h2>
+        <div className="space-y-4 ">
           <div>
-            <h3 className="font-semibold text-gray-700">1980s–1990s</h3>
+            <h3 className="font-semibold">1980s–1990s</h3>
             <p>Classics like <em>Encounter from Africa</em> and <em>Betrayal in the City</em> introduced themes of political unrest and identity.</p>
           </div>
           <div>
-            <h3 className="font-semibold text-gray-700">2000s</h3>
+            <h3 className="font-semibold">2000s</h3>
             <p>Books such as <em>The River and the Source</em> and <em>An Enemy of the People</em> tackled gender, modernization, and social justice.</p>
           </div>
           <div>
-            <h3 className="font-semibold text-gray-700">2010s–2020s</h3>
+            <h3 className="font-semibold">2010s–2020s</h3>
             <p><em>Blossoms of the Savannah</em>, <em>A Doll’s House</em>, and <em>Fathers of Nations</em> reflected the global and contemporary issues of the 21st century.</p>
           </div>
         </div>
       </section>
       <section className="mt-16">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Reflections of Society</h2>
-        <p className="text-gray-600 leading-relaxed">
+        <h2 className="text-2xl font-semibold mb-4">Reflections of Society</h2>
+        <p className=" leading-relaxed">
           Setbooks often mirrored the moral, political, and cultural issues of their times. They examined
           topics like corruption, patriarchy, and power while celebrating values such as resilience,
           justice, and courage. Through literature, students engaged with the deeper questions of identity,
@@ -155,7 +155,7 @@ export default function Home() {
         </p>
       </section>
       <section className="max-w-6xl mx-auto mb-20">
-        <h2 className="text-2xl font-semibold text-blue-700 mb-8 text-center">Notable Authors</h2>
+        <h2 className="text-2xl font-semibold mb-8 text-center">Notable Authors</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
           {[
             {
@@ -194,8 +194,8 @@ export default function Home() {
                 className="w-full h-56 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
               />
               <div className="p-4">
-                <h3 className="font-semibold text-gray-800 text-lg">{author.name}</h3>
-                <p className="text-sm text-gray-600 italic mt-1">
+                <h3 className="font-semibold text-lg">{author.name}</h3>
+                <p className="text-sm  italic mt-1">
                   Known for: {author.knownFor}
                 </p>
               </div>
@@ -207,22 +207,22 @@ export default function Home() {
       <Publishers />
       
       <section className="mt-16 text-center">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Memories that Shaped Us</h2>
-        <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
+        <h2 className="text-2xl font-semibold mb-4">Memories that Shaped Us</h2>
+        <p className=" max-w-3xl mx-auto leading-relaxed">
           Which storybook or setbook do you remember most vividly?  
           Share your favorite moment, quote, or classroom memory — from lively debates to unforgettable
           performances that brought literature to life.
         </p>
         <button
           onClick={() => (window.location.href = "/memories")}
-          className="mt-6 bg-blue-600 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-blue-700 transition duration-300"
+          className="mt-6 text-green-950 text-sm font-medium px-5 py-2.5 rounded-full hover:bg-blue-700 transition duration-300"
         >
           Share Your Story
         </button>
       </section>
       <section className="mt-20 border-t pt-10 text-center">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">About This Project</h2>
-        <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
+        <h2 className="text-2xl font-semibold mb-4">About This Project</h2>
+        <p className=" max-w-3xl mx-auto leading-relaxed">
           This project is a digital archive dedicated to preserving the literary legacy that shaped Kenyan
           learners under the 8-4-4 system.  
           It stands as a tribute to the teachers, authors, and students who made reading an integral part
