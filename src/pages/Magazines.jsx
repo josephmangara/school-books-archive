@@ -15,23 +15,46 @@ export default function Magazines() {
     logoSrc: "https://via.placeholder.com/200x250?text=Youth+Village+Kenya",
   },
   {
-    name: "Supa Strikas",
-    description:
-      "Sports comic",
-    logoSrc: "https://i.pinimg.com/736x/91/5a/43/915a43407073fbd1b5715a14ae1047b3.jpg",
-  },
-  {
-    name: "Kwani? Magazine",
-    description:
-      "Kenya’s influential literary magazine founded in 2003 by the Kwani Trust; a major youth/creative publication though less school-specific.",
+    name: "Pulse magazine",
+    description: "",
     logoSrc: "https://via.placeholder.com/200x250?text=Kwani?+Magazine",
   },
   {
-    name: "4-K Clubs Magazine",
-    description:
-      "Magazine of the Kenyan 4-K Clubs programme (Kuungana, Kufanya, Kusaidia Kenya) for primary/junior secondary schools focusing on agriculture, citizenship and leadership.",
+    name: "The Nairobian",
+    description: "",
     logoSrc: "https://via.placeholder.com/200x250?text=4K+Clubs+Magazine",
   },
+  {
+    name: "Young Nation",
+    description: "",
+    logoSrc: "https://via.placeholder.com/200x250?text=4K+Clubs+Magazine",
+  },
+  {
+    name: "Saturday nation",
+    description: "",
+    logoSrc: "https://via.placeholder.com/200x250?text=4K+Clubs+Magazine",
+  },
+  {
+    name: "Sunday nation",
+    description: "Famous for steers sudoku, popeye, and phantom comics.",
+    logoSrc: "https://via.placeholder.com/200x250?text=4K+Clubs+Magazine",
+  },
+  {
+    name: "Eve (comes with Saturday nation)",
+    description: "",
+    logoSrc: "https://via.placeholder.com/200x250?text=4K+Clubs+Magazine",
+  },
+  {
+    name: "The standard - Sunday magazine",
+    description: "",
+    logoSrc: "https://via.placeholder.com/200x250?text=4K+Clubs+Magazine",
+  }
+  // {
+  //   name: "Supa Strikas",
+  //   description:
+  //     "Sports comic",
+  //   logoSrc: "https://i.pinimg.com/736x/91/5a/43/915a43407073fbd1b5715a14ae1047b3.jpg",
+  // }
 ];
 
 
