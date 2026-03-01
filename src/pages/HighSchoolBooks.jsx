@@ -22,7 +22,12 @@ export default function HighSchoolBooks() {
     <>
       <h1>High school setbooks over the years</h1>
       {ksceSetBooks?.map(book => (
-        <div key={book.id}>{book.title}</div>
+        <div key={book.id}>
+          <h2>{book.title}</h2>
+          <img src={book.picture} alt="" />
+          <p>Author: {book.author}</p>
+          <p>KCSE Years: {book.year}</p>
+        </div>
       ))}
     </>
   )
