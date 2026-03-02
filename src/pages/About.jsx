@@ -31,7 +31,7 @@ export default function About(){
         {
           period: "2010s–2020s",
           details:
-            "Works like Blossoms of the Savannah and Fathers of Nations examined cultural change, governance, and generational conflicts.",
+            "Works like Blossoms of the Savannah and Fathers of Nations examined cultural change, governance, and generational conflicts in the 21st century.",
         },
       ].map((item, index) => (
         <div key={index} className="p-6 hover:bg-gray-100 transition duration-200">

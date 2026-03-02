@@ -103,6 +103,7 @@ export default function Home() {
           </button>
         </div>
       </section>
+      
       <section className="mt-20">
         <h2 className="text-2xl font-semibold mb-4">The Significance of Setbooks</h2>
         <p className=" leading-relaxed">
@@ -116,6 +117,7 @@ export default function Home() {
           appreciation of Kenya’s diverse social and cultural heritage.
         </p>
       </section>
+
       <section className="mt-16">
         <h2 className="text-2xl font-semibold mb-4">A Generation of Readers</h2>
         <p className=" leading-relaxed">
@@ -128,23 +130,35 @@ export default function Home() {
           carried forward into adulthood — inspiring readers, writers, and educators alike.
         </p>
       </section>
+
       <section className="mt-16">
         <h2 className="text-2xl font-semibold mb-6">The Evolution of Setbooks</h2>
-        <div className="space-y-4 ">
-          <div>
-            <h3 className="font-semibold">1980s–1990s</h3>
-            <p>Classics like <em>Encounter from Africa</em> and <em>Betrayal in the City</em> introduced themes of political unrest and identity.</p>
-          </div>
-          <div>
-            <h3 className="font-semibold">2000s</h3>
-            <p>Books such as <em>The River and the Source</em> and <em>An Enemy of the People</em> tackled gender, modernization, and social justice.</p>
-          </div>
-          <div>
-            <h3 className="font-semibold">2010s–2020s</h3>
-            <p><em>Blossoms of the Savannah</em>, <em>A Doll’s House</em>, and <em>Fathers of Nations</em> reflected the global and contemporary issues of the 21st century.</p>
-          </div>
+        <div className="bg-white rounded-2xl shadow-sm divide-y divide-gray-200">
+          {[
+            {
+              period: "1980s - 1990s",
+              details:
+                "Classics like Encounter from Africa and Betrayal in the City explored post-independence identity and political turmoil.",
+            },
+            {
+              period: "2000s",
+              details:
+                "The River and the Source and An Enemy of the People addressed gender roles, modernization, and social justice.",
+            },
+            {
+              period: "2010s - 2020s",
+              details:
+                "Works like Blossoms of the Savannah and Fathers of Nations examined cultural change, governance, and generational conflicts in the 21st century.",
+            },
+          ].map((item, index) => (
+            <div key={index} className="p-6 hover:bg-gray-100 transition duration-200">
+              <h3 className="font-semibold text-lg text-gray-800">{item.period}</h3>
+              <p className=" mt-1">{item.details}</p>
+            </div>
+          ))}
         </div>
       </section>
+
       <section className="mt-16">
         <h2 className="text-2xl font-semibold mb-4">Reflections of Society</h2>
         <p className=" leading-relaxed">
@@ -154,6 +168,7 @@ export default function Home() {
           nationhood, and human dignity.
         </p>
       </section>
+
       <section className="max-w-6xl mx-auto mb-20">
         <h2 className="text-2xl font-semibold mb-8 text-center">Notable Authors</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
@@ -220,6 +235,7 @@ export default function Home() {
           Share Your Story
         </button>
       </section>
+
       <section className="mt-20 border-t pt-10 text-center">
         <h2 className="text-2xl font-semibold mb-4">About This Project</h2>
         <p className=" max-w-3xl mx-auto leading-relaxed">
