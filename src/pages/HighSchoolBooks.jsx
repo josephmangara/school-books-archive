@@ -24,7 +24,7 @@ export default function HighSchoolBooks() {
       {ksceSetBooks?.map(book => (
         <div key={book.id}>
           <h2>{book.title}</h2>
-          <img src={book.image_url} alt="" />
+          <img src={book.image_url} alt={book.title} className="mt-3 w-full h-48 object-cover rounded"/>
           <p>Author: {book.author}</p>
           <p>Publisher: {book.publisher}</p>
           <p>KCSE Years: {book.start_year} - {book.end_year}</p>
