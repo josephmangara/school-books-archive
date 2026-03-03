@@ -21,13 +21,13 @@ export default function Header() {
 
   return (
     <header className="relative bg-blue-100 text-black shadow-md">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 py-3 gap-4 flex justify-between items-center">
         <h1 className="md:text-xl font-semibold ">School Books Archive</h1>
         <input 
           type="text" 
           name="search bar" 
           placeholder="Search books" 
-          className="bg-white border border-amber-900 rounded-lg p-2 text-black"
+          className="bg-white border border-amber-900 rounded-lg p-2 text-black hidden md:inline-block"
           id="main-search-bar" />
         <nav className="hidden md:flex space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
