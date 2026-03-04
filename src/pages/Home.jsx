@@ -16,7 +16,7 @@ import wallah from "../assets/WallahBinWallah.jpeg";
 
 export default function Home() {
   return (
-    <div className="px-6 py-10 max-w-6xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Book Repository</h1>
         <p className=" leading-relaxed max-w-3xl mx-auto">
@@ -26,10 +26,10 @@ export default function Home() {
         </p>
       </header>
 
-      <section className="mb-16">
+      <section className="mb-12">
         <h2 className="mb-6 text-2xl font-semibold">Primary School Storybooks</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {[
             {
               src: "https://i.pinimg.com/736x/e7/e6/67/e7e66764523423e79ba246cf77a5b69c.jpg",
@@ -42,7 +42,7 @@ export default function Home() {
           ].map((book, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-lg shadow-sm group hover:shadow-md transition-shadow duration-300"
+              className="relative overflow-hidden  shadow-sm group hover:shadow-md transition-shadow duration-300"
             >
               <img
                 src={book.src}
@@ -53,18 +53,16 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="flex justify-start mt-8">
+        <div className="py-4">
           <button
             onClick={() => (window.location.href = "/primary")}
-            className=" text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300"
+            className="font-medium p-2 rounded-sm bg-amber-600 hover:bg-blue-700 transition duration-300"
           > View More Primary School Books </button>
         </div>
       </section>
 
-      <section>
-        <h2 className="mb-6 text-2xl font-semibold">
-          High School Setbooks
-        </h2>
+      <section className="mb-12">
+        <h2 className="mb-6 text-2xl font-semibold">High School Setbooks</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {[
