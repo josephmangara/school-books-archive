@@ -64,7 +64,7 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="mb-6 text-2xl font-semibold">High School Setbooks</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {[
             {
               src: "https://i.pinimg.com/736x/0e/aa/a3/0eaaa33ab615d2aa6cde5487ebdae309.jpg",
@@ -81,7 +81,7 @@ export default function Home() {
           ].map((book, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-lg shadow-sm group hover:shadow-md transition-shadow duration-300"
+              className="relative overflow-hidden shadow-sm group hover:shadow-md transition-shadow duration-300"
             >
               <img
                 src={book.src}
@@ -92,17 +92,15 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="flex justify-start mt-8">
+        <div className="py-4">
           <button
             onClick={() => (window.location.href = "/highschool")}
-            className=" text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300"
-          >
-            View More High School Books
-          </button>
+            className="font-medium p-2 rounded-sm bg-amber-600 hover:bg-blue-700 transition duration-300"
+          > View More High School Books </button>
         </div>
       </section>
       
-      <section className="mt-20">
+      <section className="">
         <h2 className="text-2xl font-semibold mb-4">The Significance of Setbooks</h2>
         <p className=" leading-relaxed">
           High school setbooks in Kenya have long been more than exam requirements — they’ve been a mirror
