@@ -23,16 +23,34 @@ export default function Publishers() {
       logo: moran,
       homepage: "https://moranpublishers.com/",
     },
+    {
+      name: "Kenya Literature Bureau (KLB)",
+      description: "",
+      logo: "https://klb.co.ke/wp-content/uploads/2019/10/KLB-LOGO-with-publishing-and-printing-for-YOU-2018.png",
+      homepage: "http://www.klb.co.ke/",
+    },
+    {
+      name: "East African Educational Publishers (EAEP)",
+      description: "",
+      logo: "https://www.eastafricanpublishers.com/wp-content/uploads/2021/08/Favicon.jpg",
+      homepage: "http://www.eaepbooks.com/",
+    },
+    {
+      name: "Jomo Kenyatta Foundation",
+      description: "",
+      logo: "https://www.jkf.co.ke/images/headers/jkflogo1.jpg",
+      homepage: "http://www.jkf.co.ke/",
+    },
   ];
 
   return (
-    <section className="max-w-6xl mx-auto mb-20">
+    <section className="mb-12">
       <h2 className="text-2xl font-semibold mb-8 text-center">Leading Kenyan Publishers</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
         {publishers.map((pub, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
+            className="bg-white overflow-hidden hover:shadow-md transition-shadow duration-300"
           >
             <img
               src={pub.logo}

@@ -29,7 +29,7 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="mb-6 text-2xl font-semibold text-center">Primary School Storybooks</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-8">
           {[
             {
               src: "https://i.pinimg.com/736x/e7/e6/67/e7e66764523423e79ba246cf77a5b69c.jpg",
@@ -64,7 +64,7 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="mb-6 text-2xl font-semibold text-center">High School Setbooks</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-8">
           {[
             {
               src: "https://i.pinimg.com/736x/0e/aa/a3/0eaaa33ab615d2aa6cde5487ebdae309.jpg",
