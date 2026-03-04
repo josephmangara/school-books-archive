@@ -52,11 +52,13 @@ export default function Publishers() {
             key={index}
             className="bg-white overflow-hidden hover:shadow-md transition-shadow duration-300"
           >
-            <img
-              src={pub.logo}
-              alt={`${pub.name} logo`}
-              className="w-full h-48 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
-            />
+            <div className="h-48 flex items-center justify-center bg-gray-100">
+              <img
+                src={pub.logo}
+                alt={`${pub.name} logo`}
+                className="max-h-48 w-auto object-contain transition duration-500 ease-in-out hover:scale-105"
+              />
+            </div>
             <div className="p-4">
               <h3 className="font-semibold text-lg mb-2">{pub.name}</h3>
               {/* <p className="text-gray-600 text-sm">{pub.description}</p> */}
