@@ -1,6 +1,7 @@
 
 import Publishers from "../components/Publishers"; 
 
+import river from "../assets/river.jpg"
 import sun from "../assets/When-the-Sun-Goes-Down.jpg";
 import kidagaa from "../assets/kidagaa.jpg";
 import utengano from "../assets/utengano.jpeg";
@@ -67,7 +68,7 @@ export default function Home() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-8">
           {[
             {
-              src: "https://i.pinimg.com/736x/0e/aa/a3/0eaaa33ab615d2aa6cde5487ebdae309.jpg",
+              src: river,
               alt: "The river and the source",
             },
             { src: sun, alt: "When the sun goes down" },
