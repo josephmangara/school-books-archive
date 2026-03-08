@@ -172,7 +172,7 @@ export default function Home() {
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-8 text-center">Notable Authors</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-8">
           {[
             {
               name: "Margaret Ogola",
