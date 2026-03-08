@@ -1,6 +1,9 @@
 import longhorn from "../assets/longhorn.png";
 import oxford from "../assets/oxford.png";
 import moran from "../assets/moran.png";
+import klb from "../assets/klb.png";
+import jkf from "../assets/jkflogo1.jpg";
+
 
 export default function Publishers() {
   const publishers = [
@@ -28,7 +31,7 @@ export default function Publishers() {
     {
       name: "Kenya Literature Bureau (KLB)",
       description: "",
-      logo: "https://klb.co.ke/wp-content/uploads/2019/10/KLB-LOGO-with-publishing-and-printing-for-YOU-2018.png",
+      logo: klb,
       homepage: "http://www.klb.co.ke/",
     },
     {
@@ -40,7 +43,7 @@ export default function Publishers() {
     {
       name: "Jomo Kenyatta Foundation",
       description: "",
-      logo: "https://www.jkf.co.ke/images/headers/jkflogo1.jpg",
+      logo: jkf,
       homepage: "http://www.jkf.co.ke/",
     },
   ];
