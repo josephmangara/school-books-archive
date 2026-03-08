@@ -57,7 +57,7 @@ export default function Home() {
         <div className="py-4">
           <button
             onClick={() => (window.location.href = "/primary")}
-            className="font-medium p-2 rounded-sm bg-amber-600 hover:bg-blue-700 transition duration-300"
+            className="font-medium p-2 rounded-sm bg-amber-500 hover:bg-amber-600 cursor-pointer transition duration-300"
           > View More Primary School Books </button>
         </div>
       </section>
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="py-4">
           <button
             onClick={() => (window.location.href = "/highschool")}
-            className="font-medium p-2 rounded-sm bg-amber-600 hover:bg-blue-700 transition duration-300"
+            className="font-medium p-2 rounded-sm bg-amber-500 hover:bg-amber-600 cursor-pointer transition duration-300"
           > View More High School Books </button>
         </div>
       </section>
@@ -231,7 +231,7 @@ export default function Home() {
         </p>
         <button
           onClick={() => (window.location.href = "/memories")}
-          className="font-medium p-2 rounded-sm mt-4 md:mt-6 bg-amber-600 hover:bg-blue-700 transition duration-300"
+          className="font-medium p-2 rounded-sm mt-4 md:mt-6 bg-amber-500 hover:bg-amber-600 cursor-pointer transition duration-300"
         > Share Your Story </button>
       </section>
 
