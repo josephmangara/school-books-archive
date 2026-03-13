@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react";
 import { Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Footer from './components/Footer';
@@ -11,7 +12,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div>
       <Header />
       <main className="flex-grow max-w-6xl mx-auto px-4 py-6 z-1">
         <Routes>
@@ -22,7 +23,8 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+      <Analytics />
+    </div>
   )
 }
 
